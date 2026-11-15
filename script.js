@@ -48,7 +48,7 @@
         s.alpha = .22 + Math.random() * .42;
       }
     });
-    requestAnimationFrame(draw);
+    setTimeout(draw, 1000 / 30);
   }
   resize();
   window.addEventListener('resize', resize, {passive:true});
