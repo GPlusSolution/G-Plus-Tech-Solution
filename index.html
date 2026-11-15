@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="G-Plus Tech Solution empowers businesses and individuals with website creation, AI solutions, automation, customized business systems, IT computer maintenance and support, UI/UX design and digital marketing.">
+  <meta name="theme-color" content="#020b0d">
+  <title>G-Plus Tech Solution | Digital Solutions for a Smarter Tomorrow</title>
+  <link rel="icon" type="image/png" href="g-plus-official-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="matrixRain" class="matrix-rain" aria-hidden="true"></canvas>
+  <div class="ambient-glow glow-left"></div><div class="ambient-glow glow-right"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="G-Plus Tech Solution home">
+        <img class="brand-logo" src="g-plus-official-logo.png" alt="G-Plus Tech Solution official logo">
+        <span class="brand-wordmark">G-PLUS <small>TECH SOLUTION</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="primaryNav">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <div class="nav-dropdown">
+          <button class="dropdown-toggle" type="button" aria-expanded="false">Services <span class="chevron">⌄</span></button>
+          <div class="dropdown-menu">
+            <a href="#services">All Services</a>
+            <a href="#service-web">Website Creation</a>
+            <a href="#service-ai">AI &amp; Automation</a>
+            <a href="#service-systems">Customized Business System</a>
+            <a href="#service-support">IT &amp; Technical Support</a>
+            <a href="#service-maintenance">IT Computer Maintenance</a>
+            <a href="#service-consultation">IT Consultation &amp; Technology Advisory</a>
+          </div>
+        </div>
+        <a class="nav-link" href="#about">Portfolio</a>
+        <a class="nav-link" href="#process">Process</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+      <a class="quote-button" href="#contact"><span class="rocket">➤</span> Get a Quote</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-photo-bg" aria-hidden="true"></div>
+      <div class="hero-bg-grid"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">TECHNOLOGY <i>×</i> AI <i>×</i> AUTOMATION</p>
+          <h1>DIGITAL SOLUTIONS<br><span>FOR A <em>SMARTER TOMORROW</em></span></h1>
+          <p class="hero-description">We empower businesses and individuals with innovative technology, AI, and digital solutions to build, automate, and grow in a fast-changing world.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#services">Explore Our Services <span>→</span></a>
+            <button class="button button-video" id="overviewButton" type="button"><span class="play-icon">▶</span> Watch Overview</button>
+          </div>
+          <div class="hero-benefits">
+            <div class="benefit benefit-audience"><span class="benefit-icon">♧</span><strong>For All Businesses<br>and Individuals</strong></div>
+            <div class="benefit"><span class="benefit-icon">◎</span><strong>Build</strong></div>
+            <div class="benefit"><span class="benefit-icon">▥</span><strong>Automate</strong></div>
+            <div class="benefit"><span class="benefit-icon">➤</span><strong>Grow</strong></div>
+          </div>
+        </div></div>
+    </section>
+
+
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="services-title"><span></span><h2>OUR SERVICES</h2><span></span></div>
+        <div class="service-grid">
+          <article class="service-card" id="service-web"><div class="service-icon icon-web">‹/›</div><div><h3>Website Creation</h3><p>Professional, responsive websites designed to showcase your business and reach your customers.</p></div></article>
+          <article class="service-card" id="service-ai"><div class="service-icon icon-ai">AI</div><div><h3>AI Solutions &amp;<br>Automation</h3><p>AI-powered tools to save time, reduce cost, and boost productivity.</p></div></article>
+          <article class="service-card" id="service-systems"><div class="service-icon icon-layers">▱</div><div><h3>Customized<br>Business System</h3><p>Tailored digital systems for your unique business operations.</p></div></article>
+          <article class="service-card" id="service-it"><div class="service-icon icon-laptop">⚙</div><div><h3>IT &amp;<br>Digital Solutions</h3><p>End-to-end technology solutions to keep you connected and secure.</p></div></article>
+          <article class="service-card" id="service-ux"><div class="service-icon icon-ux">⌘</div><div><h3>UI/UX<br>Design</h3><p>User-centered, intuitive, and visually engaging experiences.</p></div></article>
+          <article class="service-card" id="service-marketing"><div class="service-icon icon-marketing">◁</div><div><h3>Digital<br>Marketing</h3><p>Grow your brand, reach the right audience, and drive real results.</p></div></article>
+          <article class="service-card" id="service-support"><div class="service-icon icon-support">◖</div><div><h3>Computer Maintenance<br>&amp; Technical Support</h3><p>Business computer maintenance, system checks, setup, troubleshooting, and ongoing technical assistance.</p></div></article>
+          <article class="service-card" id="service-automation"><div class="service-icon icon-process">⟳</div><div><h3>Business Process<br>Automation</h3><p>Streamline workflows, eliminate manual tasks, and increase efficiency.</p></div></article>
+          <article class="service-card" id="service-maintenance"><div class="service-icon icon-laptop">⚙</div><div><h3>IT Computer<br>Maintenance</h3><p>Business computer maintenance, system checks, setup, and troubleshooting. Contact us to discuss your needs.</p></div></article>
+          <article class="service-card" id="service-consultation"><div class="service-icon icon-consult">✧</div><div><h3>IT Consultation &amp;<br>Technology Advisory</h3><p>Practical guidance to help your business choose the right technology, software, and IT solutions.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="container two-column">
+        <div class="section-visual about-visual about-showcase-visual">
+          <div class="systems-carousel systems-carousel-compact" id="systemsCarousel" aria-label="Custom business systems automatic showcase">
+            <div class="systems-showcase-heading"><span>BUILT BY G-PLUS</span><b>OUR CUSTOM SYSTEMS</b></div>
+            <div class="systems-carousel-frame">
+              <img class="systems-carousel-image" id="systemsCarouselImage"
+                   src="showcase/system-01.webp" alt="POS Management System dashboard screenshot"
+                   width="1440" height="900" loading="eager" fetchpriority="high" decoding="async">
+              <div class="systems-counter" id="systemsCounter" aria-live="polite">01 / 09</div>
+            </div>
+            <div class="systems-caption">
+              <div class="systems-caption-copy">
+                <span class="systems-category" id="systemsCategory">Retail & Point-of-Sale</span>
+                <h3 id="systemsTitle">POS Management System</h3>
+              </div>
+              <div class="systems-progress" id="systemsProgress" aria-label="Automatic showcase position"><button type="button" class="systems-dot is-active" data-slide="0" aria-label="Show system 1" aria-current="true"></button><button type="button" class="systems-dot" data-slide="1" aria-label="Show system 2"></button><button type="button" class="systems-dot" data-slide="2" aria-label="Show system 3"></button><button type="button" class="systems-dot" data-slide="3" aria-label="Show system 4"></button><button type="button" class="systems-dot" data-slide="4" aria-label="Show system 5"></button><button type="button" class="systems-dot" data-slide="5" aria-label="Show system 6"></button><button type="button" class="systems-dot" data-slide="6" aria-label="Show system 7"></button><button type="button" class="systems-dot" data-slide="7" aria-label="Show system 8"></button><button type="button" class="systems-dot" data-slide="8" aria-label="Show system 9"></button></div>
+            </div>
+            <div class="systems-slide-data" hidden><span data-src="showcase/system-01.webp" data-title="POS Management System" data-category="Retail & Point-of-Sale"></span><span data-src="showcase/system-02.webp" data-title="Doctor & Patient Management System" data-category="Healthcare Management"></span><span data-src="showcase/system-03.webp" data-title="Gasoline Station Management System" data-category="Fuel Operations & BIR Compliance"></span><span data-src="showcase/system-04.webp" data-title="HR Management System" data-category="Human Resources & Workforce"></span><span data-src="showcase/system-05.webp" data-title="Industrial Inventory & Project Return Tracker" data-category="Inventory & Project Operations"></span><span data-src="showcase/system-06.webp" data-title="Lending Management System" data-category="Loan & Collection Operations"></span><span data-src="showcase/system-07.webp" data-title="Payroll Management System" data-category="Payroll & Statutory Deductions"></span><span data-src="showcase/system-08.webp" data-title="Personal Finance & Cash Flow Tracker" data-category="Personal Financial Management"></span><span data-src="showcase/system-09.webp" data-title="Sugarcane Farm & Payroll Management System" data-category="Agriculture & Payroll Operations"></span></div>
+          </div>
+        </div>
+        <div class="section-copy"><p class="section-kicker">WHO WE ARE</p><h2>Technology that works for <span>people.</span></h2><p>G-Plus Tech Solution brings together technology, creativity, and practical problem-solving to help businesses and individuals move forward. We make digital tools easier to use, business processes easier to manage, and new ideas easier to bring to life.</p><p>From a professional website to custom systems and AI-powered automation, we help turn complex technology into useful, real-world solutions.</p><a class="text-cta" href="#contact">Discover what we can build together <span>→</span></a></div>
+      </div>
+    </section>
+
+
+
+    <section class="process-section section" id="process">
+      <div class="container">
+        <p class="section-kicker">HOW WE WORK</p><div class="section-heading"><h2>From first idea to <span>real impact.</span></h2><p>A clear, collaborative process keeps your project focused on what matters.</p></div>
+        <div class="process-grid"><article><b>01</b><h3>Discover</h3><p>We listen, understand your goals, and identify the challenge to solve.</p></article><article><b>02</b><h3>Plan &amp; Design</h3><p>We shape the right approach, tools, and user experience for your needs.</p></article><article><b>03</b><h3>Build</h3><p>We develop, test, and refine your solution with your feedback.</p></article><article><b>04</b><h3>Launch &amp; Support</h3><p>We help you go live and move forward with confidence.</p></article></div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-copy"><p class="section-kicker">LET'S BUILD SOMETHING BETTER</p><h2>Your next idea starts <span>here.</span></h2><p>Tell us what you want to create, improve, or automate. We'll help you explore the right digital solution.</p><div class="contact-email-label">EMAIL OUR TEAM</div><a class="contact-email" href="mailto:ask.an.it.now@gmail.com">ask.an.it.now@gmail.com</a><div class="contact-audience">FOR BUSINESSES · ENTREPRENEURS · INDIVIDUALS</div></div>
+        <form class="contact-form" id="contactForm"><div class="form-top"><b>PROJECT INQUIRY</b><span><i></i> READY TO CONNECT</span></div>
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+          <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="service">What can we help you with?</label><select id="service" name="service"><option>Website Creation</option><option>AI Solutions &amp; Automation</option><option>Customized Business System</option><option>IT &amp; Digital Solutions</option><option>UI/UX Design</option><option>Digital Marketing</option><option>Computer &amp; Technical Support</option><option>Computer Maintenance &amp; Technical Support</option><option>Business Process Automation</option><option>IT Computer Maintenance</option><option>IT Consultation &amp; Technology Advisory</option><option>Other inquiry</option></select>
+          <label for="message">Tell us about your project</label><textarea id="message" name="message" rows="4" placeholder="A few details about your idea or needs..." required></textarea>
+          <button class="button button-primary form-submit" type="submit">Send Your Inquiry <span>→</span></button><p class="form-note">This form opens your email app with your inquiry prepared to send.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand-block">
+        <a class="footer-brand" href="#home" aria-label="G-Plus Tech Solution home">
+          <img class="footer-logo" src="g-plus-official-logo.png" alt="G-Plus Tech Solution official logo">
+          <span class="footer-brand-name">G-PLUS <small>TECH SOLUTION</small></span>
+        </a>
+        <p class="footer-tagline">Technology that moves your business forward.</p>
+        <span class="footer-focus">TECHNOLOGY <i>×</i> AI <i>×</i> AUTOMATION</span>
+      </div>
+      <div class="footer-contact-block">
+        <h3>CONTACT US</h3>
+        <a href="mailto:ask.an.it.now@gmail.com"><span class="footer-contact-icon">✉</span><span><small>Email us</small>ask.an.it.now@gmail.com</span></a>
+        <a href="tel:+639560411339"><span class="footer-contact-icon">☎</span><span><small>Call us</small>+63 956 041 1339</span></a>
+      </div>
+      <div class="footer-social-block">
+        <h3>CONNECT WITH US</h3>
+        <p>Have a project in mind or need help with your business technology? Let's connect.</p>
+        <a class="footer-social-link" href="https://www.facebook.com/GPlusTechSolution" target="_blank" rel="noopener noreferrer"><span class="facebook-mark">f</span><span>Visit Our Social Media Page</span><span class="footer-link-arrow">↗</span></a>
+        <a href="#home" class="back-top">BACK TO TOP ↑</a>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container footer-bottom-inner"><span>© <span id="year"></span> G-Plus Tech Solution. All rights reserved.</span><span>Built for better business through technology.</span></div></div>
+  </footer>
+
+  <div class="overview-modal" id="overviewModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="overviewTitle"><div class="modal-backdrop" data-close-modal></div><div class="modal-panel"><button class="modal-close" type="button" aria-label="Close overview" data-close-modal>×</button><p class="section-kicker">WELCOME TO G-PLUS</p><h2 id="overviewTitle">Digital solutions for a <span>smarter tomorrow.</span></h2><p>G-Plus Tech Solution helps businesses and individuals build a stronger digital presence, work smarter with AI, and simplify everyday operations through practical technology.</p><div class="modal-points"><span>✦ Website &amp; UI/UX design</span><span>✦ AI &amp; business automation</span><span>✦ Custom systems &amp; IT solutions</span></div><a class="button button-primary" href="#contact" id="modalContact">Let's talk about your project <span>→</span></a></div></div>
+  <!-- Floating G-Plus support launcher -->
+  <div class="ai-support-dock" aria-label="G-Plus visitor support">
+    <button class="ai-dock-button ai-query-trigger" id="aiQueryTrigger" type="button" aria-haspopup="dialog" aria-controls="contactSupportModal">
+      <span class="ai-dock-icon">✉</span><span>AI QUERY</span>
+    </button>
+    <button class="ai-dock-button ai-chat-trigger" id="aiChatTrigger" type="button" aria-haspopup="dialog" aria-controls="companyAiModal">
+      <span class="ai-dock-icon">✦</span><span>ASK G-PLUS AI</span>
+    </button>
+  </div>
+
+  <!-- Contact pop-out: separate from the company Q&A assistant -->
+  <section class="support-modal" id="contactSupportModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="contactSupportTitle">
+    <button class="support-backdrop" type="button" data-close-support aria-label="Close contact window"></button>
+    <div class="support-panel contact-support-panel">
+      <button class="support-close" type="button" data-close-support aria-label="Close">×</button>
+      <div class="support-eyebrow"><span class="support-status-dot"></span> G-PLUS CLIENT SUPPORT</div>
+      <div class="support-orb">✉</div>
+      <h2 id="contactSupportTitle">Let's talk about <span>your next idea.</span></h2>
+      <p>Have a project in mind or need help choosing the right solution? Send our team a message. We'll be happy to hear from you.</p>
+      <div class="support-contact-card">
+        <span class="support-contact-label">BUSINESS EMAIL</span>
+        <a href="mailto:ask.an.it.now@gmail.com" class="support-email-link">ask.an.it.now@gmail.com</a>
+        <button class="support-copy-email" id="copySupportEmail" type="button">COPY EMAIL</button>
+      </div>
+      <a class="support-primary-link" href="mailto:ask.an.it.now@gmail.com?subject=G-Plus%20Tech%20Solution%20Inquiry">EMAIL G-PLUS <span>→</span></a>
+      <p class="support-small-note">For inquiries, project requests, and technical assistance.</p>
+    </div>
+  </section>
+
+  <!-- Company Q&A pop-out: answers from the information published on this website -->
+  <section class="support-modal" id="companyAiModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="companyAiTitle">
+    <button class="support-backdrop" type="button" data-close-support aria-label="Close AI assistant"></button>
+    <div class="support-panel company-ai-panel">
+      <button class="support-close" type="button" data-close-support aria-label="Close">×</button>
+      <div class="ai-panel-heading">
+        <div class="ai-avatar">G<span>+</span></div>
+        <div><div class="support-eyebrow">G-PLUS VIRTUAL ASSISTANT</div><h2 id="companyAiTitle">How can I <span>help you?</span></h2><small>Ask about our company, services, or custom systems.</small></div>
+        <span class="ai-online"><i></i> ONLINE</span>
+      </div>
+      <div class="ai-chat-messages" id="aiChatMessages" role="log" aria-live="polite" aria-relevant="additions">
+        <div class="ai-message ai-message-assistant"><b>G-Plus AI</b><p>Hello! I'm the G-Plus virtual assistant. Ask me about our services, custom business systems, website creation, customized business systems, AI automation, IT computer maintenance, or how to contact our team.</p></div>
+      </div>
+      <div class="ai-quick-questions" aria-label="Suggested questions">
+        <button type="button" data-ai-question="What services do you offer?">Our services</button>
+        <button type="button" data-ai-question="What customized business systems can you build?">Customized Business System</button>
+        <button type="button" data-ai-question="Can you create a website for my business?">Website Creation</button>
+        <button type="button" data-ai-question="Do you offer IT computer maintenance for businesses?">IT Computer Maintenance</button>
+        <button type="button" data-ai-question="How can I get a quote?">Get a quote</button>
+      </div>
+      <form class="ai-chat-form" id="aiChatForm">
+        <label class="sr-only" for="aiChatInput">Ask G-Plus a question</label>
+        <input id="aiChatInput" name="question" type="text" maxlength="500" placeholder="Ask anything about G-Plus..." autocomplete="off" required>
+        <button type="submit" aria-label="Send question">➤</button>
+      </form>
+      <p class="ai-disclaimer">Answers are based on the company information available on this website. For details not listed here, <a href="mailto:ask.an.it.now@gmail.com">contact our team</a>.</p>
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
